@@ -1,0 +1,3 @@
+docker build -t nodeapi .
+
+docker run -d -t -p 1337:1337 --name node1 nodeapi
